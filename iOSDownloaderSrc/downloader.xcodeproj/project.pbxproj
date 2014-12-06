@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* ComKcwdevDownloaderModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComKcwdevDownloaderModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComKcwdevDownloaderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComKcwdevDownloaderModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* ComKcwdevDownloader_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComKcwdevDownloader_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		E44AEB6516B7B07700797873 /* BaseDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB5416B7B07700797873 /* BaseDownloadRequest.h */; };
+		E44AEB6616B7B07700797873 /* BaseDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AEB5516B7B07700797873 /* BaseDownloadRequest.m */; };
+		E44AEB6716B7B07700797873 /* CompletedDownloadCatalog.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB5616B7B07700797873 /* CompletedDownloadCatalog.h */; };
+		E44AEB6816B7B07700797873 /* CompletedDownloadCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AEB5716B7B07700797873 /* CompletedDownloadCatalog.m */; };
+		E44AEB6916B7B07700797873 /* Downloader.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB5816B7B07700797873 /* Downloader.h */; };
+		E44AEB6A16B7B07700797873 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AEB5916B7B07700797873 /* Downloader.m */; };
+		E44AEB6B16B7B07700797873 /* DownloadInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB5A16B7B07700797873 /* DownloadInformation.h */; };
+		E44AEB6C16B7B07700797873 /* DownloadInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AEB5B16B7B07700797873 /* DownloadInformation.m */; };
+		E44AEB6D16B7B07700797873 /* DownloadQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB5C16B7B07700797873 /* DownloadQueue.h */; };
+		E44AEB6E16B7B07700797873 /* DownloadQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AEB5D16B7B07700797873 /* DownloadQueue.m */; };
+		E44AEB6F16B7B07700797873 /* DownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB5E16B7B07700797873 /* DownloadRequest.h */; };
+		E44AEB7016B7B07700797873 /* DownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AEB5F16B7B07700797873 /* DownloadRequest.m */; };
+		E44AEB7116B7B07700797873 /* DownloadStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB6016B7B07700797873 /* DownloadStatus.h */; };
+		E44AEB7216B7B07700797873 /* NetworkTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB6116B7B07700797873 /* NetworkTypes.h */; };
+		E44AEB7316B7B07700797873 /* ProgressiveDownloaderStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB6216B7B07700797873 /* ProgressiveDownloaderStatus.h */; };
+		E44AEB7416B7B07700797873 /* SingleDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = E44AEB6316B7B07700797873 /* SingleDownload.h */; };
+		E44AEB7516B7B07700797873 /* SingleDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = E44AEB6416B7B07700797873 /* SingleDownload.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = downloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* ComKcwdevDownloaderModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComKcwdevDownloaderModule.h; path = Classes/ComKcwdevDownloaderModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComKcwdevDownloaderModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComKcwdevDownloaderModule.m; path = Classes/ComKcwdevDownloaderModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComKcwdevDownloaderModuleAssets.h; path = Classes/ComKcwdevDownloaderModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComKcwdevDownloaderModuleAssets.m; path = Classes/ComKcwdevDownloaderModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComKcwdevDownloader_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComKcwdevDownloader_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libComKcwdevDownloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComKcwdevDownloader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44AEB5416B7B07700797873 /* BaseDownloadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseDownloadRequest.h; path = Classes/BaseDownloadRequest.h; sourceTree = "<group>"; };
+		E44AEB5516B7B07700797873 /* BaseDownloadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseDownloadRequest.m; path = Classes/BaseDownloadRequest.m; sourceTree = "<group>"; };
+		E44AEB5616B7B07700797873 /* CompletedDownloadCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompletedDownloadCatalog.h; path = Classes/CompletedDownloadCatalog.h; sourceTree = "<group>"; };
+		E44AEB5716B7B07700797873 /* CompletedDownloadCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompletedDownloadCatalog.m; path = Classes/CompletedDownloadCatalog.m; sourceTree = "<group>"; };
+		E44AEB5816B7B07700797873 /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Downloader.h; path = Classes/Downloader.h; sourceTree = "<group>"; };
+		E44AEB5916B7B07700797873 /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Downloader.m; path = Classes/Downloader.m; sourceTree = "<group>"; };
+		E44AEB5A16B7B07700797873 /* DownloadInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadInformation.h; path = Classes/DownloadInformation.h; sourceTree = "<group>"; };
+		E44AEB5B16B7B07700797873 /* DownloadInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadInformation.m; path = Classes/DownloadInformation.m; sourceTree = "<group>"; };
+		E44AEB5C16B7B07700797873 /* DownloadQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadQueue.h; path = Classes/DownloadQueue.h; sourceTree = "<group>"; };
+		E44AEB5D16B7B07700797873 /* DownloadQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadQueue.m; path = Classes/DownloadQueue.m; sourceTree = "<group>"; };
+		E44AEB5E16B7B07700797873 /* DownloadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadRequest.h; path = Classes/DownloadRequest.h; sourceTree = "<group>"; };
+		E44AEB5F16B7B07700797873 /* DownloadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadRequest.m; path = Classes/DownloadRequest.m; sourceTree = "<group>"; };
+		E44AEB6016B7B07700797873 /* DownloadStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadStatus.h; path = Classes/DownloadStatus.h; sourceTree = "<group>"; };
+		E44AEB6116B7B07700797873 /* NetworkTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkTypes.h; path = Classes/NetworkTypes.h; sourceTree = "<group>"; };
+		E44AEB6216B7B07700797873 /* ProgressiveDownloaderStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressiveDownloaderStatus.h; path = Classes/ProgressiveDownloaderStatus.h; sourceTree = "<group>"; };
+		E44AEB6316B7B07700797873 /* SingleDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleDownload.h; path = Classes/SingleDownload.h; sourceTree = "<group>"; };
+		E44AEB6416B7B07700797873 /* SingleDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleDownload.m; path = Classes/SingleDownload.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libComKcwdevDownloader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* downloader */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = downloader;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E44AEB5416B7B07700797873 /* BaseDownloadRequest.h */,
+				E44AEB5516B7B07700797873 /* BaseDownloadRequest.m */,
+				E44AEB5616B7B07700797873 /* CompletedDownloadCatalog.h */,
+				E44AEB5716B7B07700797873 /* CompletedDownloadCatalog.m */,
+				E44AEB5816B7B07700797873 /* Downloader.h */,
+				E44AEB5916B7B07700797873 /* Downloader.m */,
+				E44AEB5A16B7B07700797873 /* DownloadInformation.h */,
+				E44AEB5B16B7B07700797873 /* DownloadInformation.m */,
+				E44AEB5C16B7B07700797873 /* DownloadQueue.h */,
+				E44AEB5D16B7B07700797873 /* DownloadQueue.m */,
+				E44AEB5E16B7B07700797873 /* DownloadRequest.h */,
+				E44AEB5F16B7B07700797873 /* DownloadRequest.m */,
+				E44AEB6016B7B07700797873 /* DownloadStatus.h */,
+				E44AEB6116B7B07700797873 /* NetworkTypes.h */,
+				E44AEB6216B7B07700797873 /* ProgressiveDownloaderStatus.h */,
+				E44AEB6316B7B07700797873 /* SingleDownload.h */,
+				E44AEB6416B7B07700797873 /* SingleDownload.m */,
+				24DE9E0F11C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComKcwdevDownloaderModule.h */,
+				24DD6CF81134B3F500162E58 /* ComKcwdevDownloaderModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ComKcwdevDownloader_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* ComKcwdevDownloader_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* ComKcwdevDownloaderModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.h in Headers */,
+				E44AEB6516B7B07700797873 /* BaseDownloadRequest.h in Headers */,
+				E44AEB6716B7B07700797873 /* CompletedDownloadCatalog.h in Headers */,
+				E44AEB6916B7B07700797873 /* Downloader.h in Headers */,
+				E44AEB6B16B7B07700797873 /* DownloadInformation.h in Headers */,
+				E44AEB6D16B7B07700797873 /* DownloadQueue.h in Headers */,
+				E44AEB6F16B7B07700797873 /* DownloadRequest.h in Headers */,
+				E44AEB7116B7B07700797873 /* DownloadStatus.h in Headers */,
+				E44AEB7216B7B07700797873 /* NetworkTypes.h in Headers */,
+				E44AEB7316B7B07700797873 /* ProgressiveDownloaderStatus.h in Headers */,
+				E44AEB7416B7B07700797873 /* SingleDownload.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "downloader" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = downloader;
+			productName = downloader;
+			productReference = D2AAC07E0554694100DB518D /* libComKcwdevDownloader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "downloader" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* downloader */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* downloader */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* ComKcwdevDownloaderModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComKcwdevDownloaderModuleAssets.m in Sources */,
+				E44AEB6616B7B07700797873 /* BaseDownloadRequest.m in Sources */,
+				E44AEB6816B7B07700797873 /* CompletedDownloadCatalog.m in Sources */,
+				E44AEB6A16B7B07700797873 /* Downloader.m in Sources */,
+				E44AEB6C16B7B07700797873 /* DownloadInformation.m in Sources */,
+				E44AEB6E16B7B07700797873 /* DownloadQueue.m in Sources */,
+				E44AEB7016B7B07700797873 /* DownloadRequest.m in Sources */,
+				E44AEB7516B7B07700797873 /* SingleDownload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* downloader */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComKcwdevDownloader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComKcwdevDownloader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComKcwdevDownloader;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/ComKcwdevDownloader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComKcwdevDownloader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComKcwdevDownloader;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComKcwdevDownloader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComKcwdevDownloader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComKcwdevDownloader;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/ComKcwdevDownloader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComKcwdevDownloader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComKcwdevDownloader;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

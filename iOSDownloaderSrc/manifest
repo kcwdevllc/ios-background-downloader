@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.8
+description: Multi-file background downloader
+author: Kevin Willford
+license: Specify your license
+copyright: Copyright (c) 2012 by kcwdev LLC
+
+
+# these should not be edited
+name: downloader
+moduleid: com.kcwdev.downloader
+guid: b668bccf-f525-4263-99cf-ae0ae7d14248
+platform: iphone
+minsdk: 1.8.1
